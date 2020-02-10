@@ -11,14 +11,17 @@
   height: 400px;
   background-color: black;
   margin: 100px auto;
+  color: white;
   /* transition-property: width;
   transition-duration: 1s;
   transition-timing-function: cubic-bezier(.78,2.05,.95,-1.44) */
-  transition: width 1s ease-in, background-color 2s ease-out;
+  /* transition: width 1s ease-in, background-color 2s ease-in, color 3s ease-in; */
+  transition: all 2s;
 }
 
 
 .transition:hover{
   width: 800px;
   background-color: white;
+  color: black
 }
